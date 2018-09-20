@@ -1,0 +1,12 @@
+Splint tool :
++++++++++++++
+The UNIX Lint tool Secure Programming Lint (SPLINT), can assist in checking for a multi-
+tude of programming errors. Check out the online manual pages (man splint) for complete de-
+tails of the splint.
+
+--> To run splint simply enter the command:
+    $ splint myprog.c
+
+Splint is particularly good at checking type checking of variable and function assignments, effi-
+ciency, unused variables and function identifiers, unreachable code and possible memory
+leaks. There are many useful options to help control splint (see man splint).
